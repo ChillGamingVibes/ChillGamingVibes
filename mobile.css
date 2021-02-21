@@ -17,7 +17,7 @@
 	}
 	#header ul#navigation {
 		background: url(../images/mobile/bg-mobile.png);
-		border: 1px solid #420202;
+		border: 1px solid #99fa99;
 		display: none;
 		font-size: 1.5625em;
 		height: auto;
@@ -48,7 +48,7 @@
 	}
 	#header ul#navigation li a {
 		background: none;
-		border-top: 1px solid #420202;
+		border-top: 1px solid #99fa99;
 		color: #ffffff;
 		display: block;
 		font-family: Arial;
@@ -62,8 +62,8 @@
 	}
 	#header ul#navigation li span {
 		background: transparent url(../images/mobile/mobile-expand.png) no-repeat;
-		border-left: 1px solid #420202;
-		border-top: 1px solid #420202;
+		border-left: 1px solid #99fa99;
+		border-top: 1px solid #99fa99;
 		display: block;
 		height: 49px;
 		position: absolute;
@@ -81,6 +81,7 @@
 	#header ul#navigation li a:hover,
 	#header ul#navigation li.current ul li a:hover,
 	#header ul#navigation li.current a {
+		background: rgba(153, 250, 153, 0.8);
 		color: #ffffff;
 	}
 	#header ul#navigation > li:first-child > a {
